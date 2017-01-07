@@ -107,4 +107,4 @@ for case in range(1, T+1):
     health, num_spells = map(int, raw_input().strip().split())
     spell_list = map(parse_spell, raw_input().strip().split())
     result = solve(health, spell_list)
-    print "Case #%s: %s" % (case, result)
+    print "Case #%s: %.7f" % (case, result)
